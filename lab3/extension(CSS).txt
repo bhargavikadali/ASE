@@ -1,0 +1,27 @@
+#map{
+    width: 200px;
+    height: 200px;
+}
+body {
+    margin:20px;
+}
+h1 {
+    font-size: 2em;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: #f00;
+}
+
+h1:active {
+    color:#555;
+}
+
+#write {
+    font-size: 2em;
+    color: #ff8800;
+}
+input {
+    outline: none;
+}

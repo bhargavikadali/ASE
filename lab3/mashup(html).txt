@@ -1,0 +1,15 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<p>1. Geolocation Service</p>
+<div id="map"></div>
+
+<p>2. Direction Service</p>
+<button id="button">Show Direction</button>
+<div id="map_canvas" style="height: 400px; width: 400px"></div>
+
+<p align='right' top='5'><a href="http://www.facebook.com" align="right">Like us on Facebook</a></p>
+<br>
+    <br>
+<img src="http://files.myopera.com/knutron/albums/917555/Scenary-from-the-westcoast-of-Norway.jpg" alt="picture" width='200' height='200'></img>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+<p align='right'><a href="https://twitter.com/intent/tweet?in_reply_to=51113028241989632">Reply</a></p>

@@ -1,0 +1,41 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<div data-role="page" id="page1">
+
+     <div data-role="header">
+         <h1>GeoLocation/LocalStorage Services</h1>
+       
+     </div>
+
+     <div data-role="content">     
+          <p><a href="#Directions Page" data-role="button">Click to get location services</a></p>
+     </div>
+ <div data-role="content">     
+          <p><a href="#StorageOptionsPage" data-role="button">Click to get Local Storage Options</a></p>
+     </div>
+</div>
+
+<div data-role="page" id="Directions Page">
+
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Directions Page</h1>
+     </div>
+
+    
+     <div data-role="content">     
+         <button id="button">Show Direction</button></div>
+        
+         <div id="map_canvas" style="height: 400px; width: 400px"></div>
+            <div id="map"></div>
+         
+     </div>
+    
+         <div data-role="page" id="StorageOptionsPage">
+      <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1> Storage Options Page</h1>
+         </div>
+         
+     </div>
+
+
