@@ -1,0 +1,114 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+using System.Data.SqlClient;
+using System.Configuration;
+
+namespace WcfService2
+{
+    /// <summary>
+    /// Summary description for WebService1
+    /// </summary>
+    [WebService(Namespace = "http://tempuri.org/")]
+    [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+    [System.ComponentModel.ToolboxItem(false)]
+    // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+    // [System.Web.Script.Services.ScriptService]
+    public class WebService1 : System.Web.Services.WebService
+    {
+
+        [WebMethod]
+        public string queryTable(string name)
+        {
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["dbstring"].ConnectionString);
+            conn.Open();
+            string name1 = "";
+            string name2 = "";
+            string ssn = "";
+            string dateofbirth = "";
+            string employee_id = "";
+            string designation = "";
+            SqlCommand cmd = new SqlCommand("select * from Table3 where name='" + name + "'", conn);
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                name1 = name1 + ";" + reader["firstname"];
+                name2 = name2 + ";" + reader["lastname"];
+                ssn = ssn + ";" + reader["ssn"].ToString();
+                dateofbirth = dateofbirth + ";" + reader["dateofbirth"].ToString();
+                employee_id = employee_id + ";" + reader["employee_id"].ToString();
+                designation = designation + ";" + reader["designation"].ToString();
+            }
+            reader.Close();
+            conn.Close();
+            return "Data Available is:" + name1 + "," + name2 + "," + ssn + "," + dateofbirth + "," + employee_id + "," + designation;
+        }
+        [WebMethod]
+        public string insertTable(string firstname, string lastname, string ssn, string dateofbirth, string employee_id, string designation)
+        {
+
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["dbstring"].ConnectionString);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("Insert into Table3(name1,name2,ssn,dateofbirth,employee_id,designation)values('" + firstname + "','" + lastname+ "," + ssn + "','" + dateofbirth + "','" + employee_id + "'," + designation+"')",conn);
+            cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            conn.Close();
+            return "Insert into database successful";
+
+        }
+        [WebMethod]
+        public string deleteTable(string name, string ssn, string dateofbirth, string employee_id, string designation)
+        {
+
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["dbstring"].ConnectionString);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("Delete from Table3 where name1='" + name + "'", conn);
+            cmd.ExecuteNonQuery();
+            cmd.Dispose();
+            conn.Close();
+            return "Delete from database successful";
+
+
+        }
+    }
+}
+<?xml version="1.0"?>
+<configuration>
+
+  <system.web>
+    <compilation debug="true" targetFramework="4.0" />
+  </system.web>
+  <system.serviceModel>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior>
+          <!-- To avoid disclosing metadata information, set the value below to false and remove the metadata endpoint above before deployment -->
+          <serviceMetadata httpGetEnabled="true"/>
+          <!-- To receive exception details in faults for debugging purposes, set the value below to true.  Set to false before deployment to avoid disclosing exception information -->
+          <serviceDebug includeExceptionDetailInFaults="false"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <serviceHostingEnvironment multipleSiteBindingsEnabled="true" />
+  </system.serviceModel>
+ <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true"/>
+   <httpProtocol>
+     <customHeaders>
+       <add name="Access-Control-Allow-Origin" value="*" />
+       <add name="Access-Control-Allow-Headers"
+       value="Origin, X-Requested-With, 
+Content-Type,soapaction,Accept" />
+     </customHeaders>
+   </httpProtocol>
+  </system.webServer>
+  <connectionStrings>
+    <add connectionString="Data 
+Source=.\SQLEXPRESS;AttachDbFilename=c:\users\deepthi\documents\visual studio 2010\Projects\WcfService2\WcfService2.Database1.mdf; Integrated Security=True;User Instance=True" name="dbString"
+    providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+</configuration>
+
+
