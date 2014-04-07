@@ -1,0 +1,1067 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Walk Through The World | Give unique title of the page here</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Walk Through The World!!!</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="createroute.html">Create Route</a></li>
+                    <li><a href="service.html">Choose Routes</a></li>
+                    <li><a href="service.html">Trace Routes</a></li>
+                    
+                  </ul>                  
+                </li>
+                <li>
+                  <a href="about_us.html">About Us<b class="caret"></b></a>
+                 
+                </li>
+              
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <!-- Start: slider -->
+      <div class="slider">
+        <div class="container-fluid">
+          <div id="heroSlider" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Get Ready to Plan Your Travel Routes!!!</h1>
+                      <p>
+                        This Application enables you to plan your routes all over the world.. This implements the use og Google Map API's for providing the best results..
+                      </p>
+                                         
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Interested in Tracking your Routes!!!</h1>
+                      <p>
+                        This Application enables you to trace all your routes that you have travelled over the world.. This implements the use og Google Map API's for providing the best results..
+                      </p>
+                                         
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic1.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Want to Choose Your Travel Route!!!</h1>
+                      <p>
+                       This Application enables you to choose the routes of your choice from different choices provided all over the world.. This implements the use og Google Map API's for providing the best results..
+                      </p>
+                                           
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic2.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Get Ready To be a Part of Walk Through The world!!!</h1>
+                      <p>
+                        Feel excited to plan your trips with well planned routes to your destinations.. Interested in using our services??? Get them completely for free by just signing up...
+                      </p>
+                      <h3>
+                        <a href="signup.html" class="btn btn-primary">Signup Now</a>
+                        
+                      </h3>                      
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic3.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#heroSlider" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="#heroSlider" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+      <!-- End: slider -->
+      <!-- Start: PRODUCT LIST -->
+        <div class="container">
+          <div class="page-header">
+           
+          <div class="page-header">
+           
+    <!-- End: MAIN CONTENT -->
+    <!-- Start: FOOTER -->
+    <footer>
+      
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Bootbusiness, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+signup.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Walk Through The World!!! | Give unique title of the page here</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Walk Through The World!!!</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="service.html">Create Route</a></li>
+                    <li><a href="service.html">Choose Routes</a></li>
+                    <li><a href="service.html">Trace Routes</a></li>
+                    
+                  </ul>                                  
+                </li>
+                <li class="dropdown">
+                  <a href="about_us.html">About Us<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="our_works.html">Our works</a></li>
+                    <li><a href="patnerships.html">Parnerships</a></li>
+                    <li><a href="leadership.html">Leadership</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                  </ul>
+                </li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="signup.html" class="active-link">Sign up</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <div class="container">
+        <div class="page-header">
+          <h1>Signup Here</h1>
+        </div>
+        <div class="row">
+          <div class="span6 offset3">
+            <h4 class="widget-header"><i class="icon-gift"></i>Want to be a part of "Walk Through The World"!!</h4>
+            <div class="widget-body">
+              <div class="center-align">
+                <form class="form-horizontal form-signin-signup">
+                  <input type="text" name="email" placeholder="Email">
+                  <input type="password" name="password" placeholder="Password">
+                  <input type="password" name="password_confirmation" placeholder="Password Confirmation">
+                  <div>
+                  <a href="userhome.html" type="submit" value="Signup" class="btn btn-primary btn-large">Signin</a>
+                   
+                  </div>
+                </form>
+                <h4><i class="icon-question-sign"></i> Already have an account?</h4>
+                <a href="signin.html" class="btn btn-large bottom-space">Signin</a>
+                <h4><i class="icon-thumbs-up"></i> Sign in with a third party account</h4>
+                <ul class="signin-with-list">
+                  <li>
+                    <a href="https://twitter.com/" class="btn-twitter">
+                      <i class="icon-twitter icon-large"></i>
+                      Twitter Signin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/" class="btn-facebook">
+                      <i class="icon-facebook icon-large"></i>
+                      Facebook Signin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/" class="btn-google">
+                      <i class="icon-google-plus icon-large"></i>
+                     Google Signin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/" class="btn-github">
+                      <i class="icon-github icon-large"></i>
+                    Github Signin
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End: MAIN CONTENT -->
+    <!-- Start: FOOTER -->
+    <footer>
+     
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Bootbusiness, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+signin.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Walk Through The World!!! | Give unique title of the page here
+    <script language="javascript">
+        function validateform(objForm) {
+            alert("invalid");
+
+            if (objForm.email.value.length == 0) {
+                alert("please enter the user name");
+                objForm.email.focus();
+                return false;
+            }
+
+            if (objForm.password.value.length == 0) {
+                alert("please enter the user name");
+                objForm.password.focus();
+                return false;
+
+            return true;
+        }
+
+    </script>
+    
+    </title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Walk Through The World!!!</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="createroute.html">Create Route</a></li>
+                    <li><a href=".html">Choose Routes</a></li>
+                    <li><a href=".html">Trace Routes</a></li>
+                    
+                  </ul>                  
+                                 
+                </li>
+                <li class="dropdown">
+                  <a href="about_us.html">About Us<b class="caret"></b></a>
+                  
+                </li>
+             
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="signin.html" class="active-link">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <div class="container">
+        <div class="page-header">
+          <h1>Signin!!!</h1>
+        </div>
+        <div class="row">
+          <div class="span6 offset3">
+            <h4 class="widget-header"><i class="icon-lock"></i> Login Here</h4>
+            <div class="widget-body">
+              <div class="center-align">
+                <form name="loginform" action="validateuser.jsp" method="post" onsubmit="validateform(this)" class="form-horizontal form-signin-signup">
+                  <input type="text" name="email" placeholder="Email">
+                  <input type="password" name="password" placeholder="Password">
+                  <div class="remember-me">
+                    <div class="pull-left">
+                      <label class="checkbox">
+                        <input type="checkbox"> Remember me
+                      </label>
+                    </div>
+                    <div class="pull-right">
+                      <a href="#">Forgot password?</a>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div>
+                  <a href="userhome.html" type="submit" value="Signup" class="btn btn-primary btn-large">Signin</a>
+                   
+                  </div>
+                </form>
+                <h4><i class="icon-question-sign"></i> Don't have an account?</h4>
+                <a href="signup.html" class="btn btn-large bottom-space">Signup here</a>
+                <h4><i class="icon-thumbs-up"></i> Sign in with a third party account</h4>
+                <ul class="signin-with-list">
+                  <li>
+                    <a href="https://twitter.com/" class="btn-twitter">
+                      <i class="icon-twitter icon-large"></i>
+                      Twitter Signin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/" class="btn-facebook">
+                      <i class="icon-facebook icon-large"></i>
+                      Facebook Signin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/" class="btn-google">
+                      <i class="icon-google-plus icon-large"></i>
+                      Google Signin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/" class="btn-github">
+                      <i class="icon-github icon-large"></i>
+                      Github Signin
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End: MAIN CONTENT -->
+    <!-- Start: FOOTER -->
+    <footer>
+     
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Walk Through The World, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+signout.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Walk Through The World | Give unique title of the page here</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Walk Through The World!!!</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="service.html">Create Route</a></li>
+                    <li><a href="service.html">Choose Routes</a></li>
+                    <li><a href="service.html">Trace Routes</a></li>
+                    
+                  </ul>                  
+                </li>
+                <li>
+                  <a href="about_us.html">About Us<b class="caret"></b></a>
+                 
+                </li>
+              
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <!-- Start: slider -->
+      <div class="slider">
+        <div class="container-fluid">
+          <div id="heroSlider" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="active item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Get Ready to Plan Your Travel Routes!!!</h1>
+                      <p>
+                        This Application enables you to plan your routes all over the world.. This implements the use og Google Map API's for providing the best results..
+                      </p>
+                                         
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Interested in Tracking your Routes!!!</h1>
+                      <p>
+                        This Application enables you to trace all your routes that you have travelled over the world.. This implements the use og Google Map API's for providing the best results..
+                      </p>
+                                         
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic1.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Want to Choose Your Travel Route!!!</h1>
+                      <p>
+                       This Application enables you to choose the routes of your choice from different choices provided all over the world.. This implements the use og Google Map API's for providing the best results..
+                      </p>
+                                           
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic2.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="item">
+                <div class="hero-unit">
+                  <div class="row-fluid">
+                    <div class="span7 marketting-info">
+                      <h1>Get Ready To be a Part of Walk Through The world!!!</h1>
+                      <p>
+                        Feel excited to plan your trips with well planned routes to your destinations.. Interested in using our services??? Get them completely for free by just signing up...
+                      </p>
+                      <h3>
+                        <a href="signup.html" class="btn btn-primary">Signup Now</a>
+                        
+                      </h3>                      
+                    </div>
+                    <div class="span5">
+                      <img src="img/pic3.jpg" class="thumbnail">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#heroSlider" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="#heroSlider" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+      <!-- End: slider -->
+      <!-- Start: PRODUCT LIST -->
+        <div class="container">
+          <div class="page-header">
+           
+          <div class="page-header">
+           
+    <!-- End: MAIN CONTENT -->
+    <!-- Start: FOOTER -->
+    <footer>
+      
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Bootbusiness, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+
+aboutus.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Bootbusiness | Give unique title of the page here</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Walk Through The World!!!</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="service.html">Create Route</a></li>
+                    <li><a href="service.html">Choose Routes</a></li>
+                    <li><a href="service.html">Trace Routes</a></li>
+                    
+                  </ul>                  
+                </li>
+                <li>
+                  <a href="about_us.html">About Us<b class="caret"></b></a>
+                 
+                </li>
+              
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <br />
+     <br />
+      <br />
+       <br />
+        <br />
+         <br />
+          <br />
+           <br />
+     
+       
+        <br />
+         <br />
+          <br />
+              <p>
+               This Application enables you to plan your routes all over the world.. This implements the use og Google Map API's for providing the best results..
+               This Application enables you to trace all your routes that you have travelled over the world.. This implements the use og Google Map API's for providing the best results..
+               This Application enables you to choose the routes of your choice from different choices provided all over the world.. This implements the use og Google Map API's for providing the best results..
+               Feel excited to plan your trips with well planned routes to your destinations.. Interested in using our services??? Get them completely for free by just signing up...
+
+              </p>  
+              
+    
+      <br />
+       <br />
+        <br />
+         <br />
+          <br />
+     <br />
+      <br />
+       <br />
+        <br />
+         <br />
+          <br />      
+             
+    <footer>
+     
+           
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Bootbusiness, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+
+contactus.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Walk Through The World!!! | Give unique title of the page here</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Walk Through The World!!! </a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="service.html">Create Route</a></li>
+                    <li><a href="service.html">Choose Routes</a></li>
+                    <li><a href="service.html">Trace Routes</a></li>
+                    
+                  </ul>                               
+                </li>
+                <li class="dropdown">
+                  <a href="about_us.html" >About Us<b class="caret"></b></a>
+                  
+                </li>
+                
+                <li><a href="contact_us.html" class="active-link">Contact us</a></li>
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <div class="container">
+        <div class="page-header">
+          <h1>Contact us</h1>
+        </div>
+        <div class="row-fluid">
+          <!-- Start: CONTACT US FORM -->
+          <div class="span4 offset1">
+            <div class="page-header">
+              <h2>Quick message</h2>
+            </div>
+            <form class="form-contact-us">
+              <div class="control-group">
+                <div class="controls">
+                  <input type="text" id="inputName" placeholder="Name">
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="controls">
+                  <input type="text" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="controls">
+                  <textarea id="inputMessage" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="controls">
+                  <input type="submit" class="btn btn-primary btn-large" value="Send">
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- End: CONTACT US FORM -->
+          <!-- Start: OFFICES -->
+          <div class="span5 offset1">
+            <div class="page-header">
+              <h2>Offices</h2>
+            </div>
+            <h3>North America</h3>
+            <div>
+              <address class="pull-left">
+                <strong>Walk Through The World, Inc.</strong><br>
+                123 Folsom Ave, Suite 600<br>
+                USA<br>
+              </address>
+              <div class="pull-right">
+                <div class="bottom-space">
+                  <i class="icon-phone icon-large"></i> (123) 123-1234
+                </div>
+                <a href="mailto:contact@bootbusiness.com" class="contact-mail">
+                  <i class="icon-envelope icon-large"></i>
+                </a> contact@walkthroughtheworld.com
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <h3>Europe</h3>
+            <div>
+              <address class="pull-left">
+                <strong>Walk Through The World, Inc.</strong><br>
+                123 Folsom Ave, Suite 600<br>
+                UK<br>
+              </address>
+              <div class="pull-right">
+                <div class="bottom-space">
+                  <i class="icon-phone icon-large"></i> (123) 123-1234
+                </div>
+                <a href="mailto:contact@bootbusiness.com" class="contact-mail">
+                  <i class="icon-envelope icon-large"></i>
+                </a> contact@walkthroughtheworld.com
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <h3>Asia</h3>
+            <div>
+              <address class="pull-left">
+                <strong>Walk Through The World, Inc.</strong><br>
+                123 Folsom Ave, Suite 600<br>
+                India<br>
+              </address>
+              <div class="pull-right">
+                <div class="bottom-space">
+                  <i class="icon-phone icon-large"></i> (123) 123-1234
+                </div>
+                <a href="mailto:contact@bootbusiness.com" class="contact-mail">
+                  <i class="icon-envelope icon-large"></i>
+                </a> contact@walkthroughtheworld.com
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!-- End: OFFICES -->
+        </div>
+      </div>
+    </div>
+    <!-- End: MAIN CONTENT -->
+    <!-- Start: FOOTER -->
+    <footer>
+      
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Walk Through The World, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+userhome.html
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootbusiness | Short description about company">
+    <meta name="author" content="Your name">
+    <title>Walk Through The World!!!| Give unique title of the page here</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/boot-business.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand brand-bootbus">Welcome User!!!</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle active-link" data-toggle="dropdown">Our Services<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    
+                  
+                    <li><a href="createroute.html">Create Route</a></li>
+                    <li><a href="service.html">Choose Routes</a></li>
+                    <li><a href="service.html">Trace Routes</a></li>
+                    
+                  </ul>                  
+                </li>
+                <li>
+                  <a href="about_us.html">About Us<b class="caret"></b></a>
+                 
+                </li>
+              
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="signout.html">Sign Out</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+
+    <br />
+     <br />
+      <br />
+       <br />
+        <br />
+         <br />
+          <br />
+           <br />
+     
+       
+        <br />
+         <br />
+          <br />
+              <p>
+               Plan your routes all over the world.. This implements the use og Google Map API's for providing the best results..
+               Trace all your routes that you have travelled over the world.. This implements the use og Google Map API's for providing the best results..
+               hoose the routes of your choice from different choices provided all over the world.. This implements the use og Google Map API's for providing the best results..
+               Feel excited to plan your trips with well planned routes to your destinations.. Interested in using our services??? Get them completely for free by just signing up...
+
+              </p>  
+              
+    
+      <br />
+       <br />
+        <br />
+         <br />
+          <br />
+     <br />
+      <br />
+       <br />
+        <br />
+         <br />
+          <br />      
+             
+    <footer>
+      
+      <hr class="footer-divider">
+      <div class="container">
+        <p>
+          &copy; 2014-3000 Bootbusiness, Inc. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
+  </body>
+</html>
+
+
+
+
